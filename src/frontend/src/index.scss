@@ -1,0 +1,51 @@
+/* 全局样式 */
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* 容器样式 */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* 按钮样式 */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 图片网格样式 */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/* 进度条样式 */
+progress {
+  width: 100%;
+}
+
+.mask{
+  width:30%;
+  height: 30%;
+}
+
+.mask1{
+  width:50%;
+  height: 100%;
+}
+
+.opcode{
+  width:200px;
+  height:200px;
+}
